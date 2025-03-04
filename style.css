@@ -66,8 +66,12 @@ table {
 	border-spacing: 0;
 }
 
+.sub-body{
+    padding: 0 120px;
+}
+
 header{
-    padding: 30px 120px;
+    padding: 30px 0;
 }
 
 .header{
@@ -114,13 +118,12 @@ header{
 .sub-header{
     display: flex;
     justify-content: space-between;
-    margin: 12px 120px;
     padding-left: 43px;
     background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
 }
 
 .top__titel{
-    padding-top: 68px;
+    margin-top: 68px;
     font-family: 'Cera Pro Medium', sans-serif; 
     font-weight: 500;
     font-size: 14px;
@@ -130,6 +133,7 @@ header{
 }
 
 .planet{
+    max-width: 60%;
     margin-top: 7px;
     font-family: 'Cera Pro Bold', sans-serif; 
     color: #3d3d3d;
@@ -143,6 +147,7 @@ header{
 }
 
 .top__titel__text{
+    max-width: 55%;
     margin-top: 5px;
     font-family: 'Cera Pro Regular', sans-serif;
     color: #727272;
