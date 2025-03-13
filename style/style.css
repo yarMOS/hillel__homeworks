@@ -42,10 +42,7 @@ header{
 .sub__titel{
     text-align: right;
 }
-.ps{
-    display: flex;
-    justify-content: flex-end;
-}
+
 .p__sub__titel{
     max-width: 180px;
     color: #3D3D3D;
@@ -54,6 +51,7 @@ header{
     font-weight: 900;
     line-height: 24px;
     text-transform: uppercase;
+    float: right;
 }
 
 .text__sub__titel{
@@ -65,6 +63,7 @@ header{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    float: right;
 }
 
 .btn__findmore{
@@ -74,8 +73,8 @@ header{
     column-gap: 2px;
     padding: 11px 27px 9px 28px;
     border-radius: 6px;
+    border: #46A358;
     background: #46A358;
-    max-width: 83px;
     float: right;
 }
 
