@@ -76,6 +76,7 @@ header{
     border-radius: 6px;
     background: #46A358;
     max-width: 83px;
+    float: right;
 }
 
 .btn__find{
