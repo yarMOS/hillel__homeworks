@@ -18,13 +18,12 @@
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 120px 120px 0;
     column-gap: 28px;
 }
 
 .img__titel{
-    display: flex;
     position: relative; 
     bottom: 100px;
     right: 250px;
@@ -76,6 +75,7 @@ header{
     border: #46A358;
     background: #46A358;
     float: right;
+    cursor: pointer;
 }
 
 .btn__find{
@@ -119,6 +119,7 @@ footer{
 .titel{
     margin-top: 35px;
     display: flex;
+    justify-content: center;
     column-gap: 44px;
 }
 
@@ -174,6 +175,7 @@ footer{
     margin-top: 9px;
     display: flex;
     column-gap: 3px;
+    cursor: pointer;
 }
 
 .btn__read__more{
