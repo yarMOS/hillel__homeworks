@@ -124,6 +124,52 @@
 }
 /*  */
 /*  */
+
+.barberton{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.angel{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.african{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.blushing{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.beach{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.aluminum{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.bird{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.broadleaf{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.chinese{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
 .barberton .off__all{
     position: absolute;
     top: 14px;
@@ -386,7 +432,6 @@
 }
 
 .barberton:hover{
-    position: relative;
     border-top: #46A358 1px solid;
     opacity: 1;
 }
