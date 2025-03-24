@@ -1,0 +1,1271 @@
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url('./fonts/cera_pro/CeraPro-Regular.eot') format(eot), url('./fonts/cera_pro/CeraPro-Regular.ttf') format(ttf), url('./fonts/cera_pro/CeraPro-Regular.woff') format(woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cera Pro Medium';
+    src: url('./fonts/cera_pro/CeraPro-Medium.eot') format(eot), url('./fonts/cera_pro/CeraPro-Medium.ttf') format(ttf), url('./fonts/cera_pro/CeraPro-Medium.woff') format(woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Cera Pro Bold';
+    src: url('./fonts/cera_pro/CeraPro-Bold.eot') format(eot), url('./fonts/cera_pro/CeraPro-Bold.ttf') format(ttf), url('./fonts/cera_pro/CeraPro-Bold.woff') format(woff);
+    font-weight: 700;
+}
+
+.sub-body__two{
+    padding: 0 120px;
+}
+
+.headd__two{
+    padding: 30px 0 12px;
+}
+
+.header__two{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+}
+
+.list__two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-item__two{
+    text-align: center;
+    min-width: 80px;
+    padding: 8px 25px 25px;   
+    font-family: 'Cera Pro Regular', sans-serif;  
+    color: #3d3d3d;
+    font-size: 16px;
+}
+
+.list-item__two.active__two{
+    border-bottom: 3px solid rgba(255, 255, 255, 0) ;
+}
+
+.list-item__two.active__two:hover{
+    border-bottom: 3px solid #46A358;
+    font-family: 'Cera Pro Bold', sans-serif; 
+}
+
+.cta__two{
+    font-family: 'Cera Pro Medium', sans-serif; 
+    padding: 8px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    /* отступ между двумя или более элементами (только между флекс) */
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #46A358;
+    background-color: #46A358;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta__two:hover{
+    font-family: 'Cera Pro Medium', sans-serif; 
+    padding: 8px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    /* отступ между двумя или более элементами (только между флекс) */
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #46A358;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.cta__two svg{
+    stroke: #fff;
+}
+
+.cta__two:hover svg{
+    stroke: #46A358;
+}
+
+.cta__two a{
+    color: #fff;
+}
+
+.cta__two:hover a{
+    color: #46A358;
+}
+
+.sub-header__two{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 43px;
+    padding-bottom: 85px;
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+}
+
+.top__titel__two{
+    margin-top: 68px;
+    font-family: 'Cera Pro Medium', sans-serif; 
+    font-weight: 500;
+    font-size: 14px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.planet__two{
+    max-width: 60%;
+    margin-top: 7px;
+    font-family: 'Cera Pro Bold', sans-serif; 
+    color: #3d3d3d;
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.planet__green__two{
+    color: #46A358;
+}
+
+.top__titel__text__two{
+    max-width: 55%;
+    margin-top: 5px;
+    font-family: 'Cera Pro Regular', sans-serif;
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn__shop__two{
+    margin-top: 44px;
+    padding: 10px 26px ;
+    color: #fff;
+    border: 1px solid #46A358;
+    border-radius: 6px;
+    background: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.btn__shop__two:hover{
+    margin-top: 44px;
+    padding: 10px 26px ;
+    color: #46A358;
+    border: 1px solid #46A358;
+    border-radius: 6px;
+    background: #fff;
+    font-family: 'Cera Pro Bold', sans-serif; 
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.foto__two{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.big__img__two{
+    position: relative;
+}
+
+.list__two > li{
+    position: relative;
+}
+
+.list__two > li > ul {
+    position: absolute;
+    padding-top: 41px;
+    right: 10px;
+    display: none;
+}
+
+.list__two > li:hover > ul {
+	display: block;
+}
+
+.list-item-a__two{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    min-width: 188px;
+    padding: 7px 17px 8px 14px;
+    background-color: #EDF6EE;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.list-item-a-active__two:hover{
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: #1A712A;
+}
+
+.list-item-a__two:hover .list-item-a-color__two{
+    color: #fff;
+}
+
+.list-item-svg__two{
+    transform: rotate(180deg);
+    opacity: 0;
+}
+
+.list-item-a__two:hover svg{
+    opacity: 1;
+}
+
+.list-item-a__two{
+    position: relative;
+}
+
+.list-items-next__two{
+    position: absolute;
+    list-style: none;
+    left: 220px;
+    bottom: -66px;
+    display: none;
+    width: 180px;
+    background-color: #EDF6EE;
+}
+
+
+.list-item-a__two:hover .list-items-next__two{
+    display: block;
+}
+
+.list-items-next-pages__two{
+    text-align: left;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    /* max-width: 188px; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 7px 14px 8px 14px;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.list-items-next-pages__two:hover{
+    background-color: #1A712A;
+}
+
+.list-items-next-pages__two:hover a{
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.list-items-next-pages__two:hover a{
+    color: #fff;
+}
+
+.upppermost{
+    padding: 0 120px 22px;
+}
+
+.header{
+    padding: 24px 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #FBFBFB;
+    column-gap: 30px;
+}
+
+.sub__header__photo1{
+    width: 77px;
+    height: 96px;
+    background-image: url(../img1/flower1.svg);
+    background-repeat: no-repeat;
+}
+
+.sub__header__photo2{
+    width: 83px;
+    height: 92px;
+    background-image: url(../img1/flower2.svg);
+    background-repeat: no-repeat;
+}
+
+.sub__header__photo3{
+    width: 90px;
+    height: 92px;
+    background-image: url(../img1/flower3.svg);
+    background-repeat: no-repeat;
+}
+
+.sub__header__name{
+    margin-top: 15px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.sub__header__text{
+    margin-top: 9px;
+    min-width: 204px;
+    color: #727272;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.sub__header__stick{
+    width: 1px; 
+    height: 187px;
+    background: rgba(70, 163, 88, 0.10);
+}
+
+.sub__header__stick__last{
+    width: 1px; 
+    height: 187px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.left__header__titel{
+    padding-top: 13px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.email__add{
+    margin-top: 25px;
+}
+
+.email__add{
+    display: flex;
+}
+
+.email__add__curs{
+    padding: 12px 86px 12px 11px;
+    border-radius: 6px 0 0 6px;
+    border: #fff;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    color: #ACACAC;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.email__add__btn{
+    padding: 11px 24px 11px 25px;
+    border-radius: 0px 6px 6px 0px;
+    background: #46A358;
+    border: 1px solid #46A358;
+    color: #FFF;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px; 
+    cursor: pointer;
+}
+
+.email__add__btn:hover{ 
+    color: #46A358;
+    background: #fff;
+    border: 1px solid #46A358;
+    transition: all 0.2s ease;
+}
+
+.left__header__text{
+    margin-top: 18px;
+    max-width: 354px;
+    color: #727272;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    column-gap: 155px;
+}
+
+.svg__greenshop{
+    padding: 27px 0 0 23px;
+}
+
+.location{
+    margin-top: 25px;
+    display: flex;
+    column-gap: 9px;
+}
+
+.location__img{
+    margin: 9px;
+}
+
+.location__text{
+    padding-bottom: 19px;
+    max-width: 176px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.message{
+    margin-top: 33px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.message__img{
+    margin-top: 2px;
+}
+
+.message__text{
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.calling{
+    margin-top: 33px;
+    display: flex;
+    column-gap: 8px;
+}
+
+.calling__img{
+    margin-top: 2px;
+}
+
+.calling__text{
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.over__bottom{
+    padding: 33px 155px 27px 25px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.20);
+}
+
+.bottom__section__head{
+    color: #3D3D3D;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.bottom__section__ul{
+    margin-top: 8px;
+}
+
+.bottom__section__li > a{
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bottom__section2{
+    min-width: 135px;
+    margin-left: 164px;
+}
+
+.bottom__section3{
+    margin-left: 129px;
+}
+
+.bottom__sm{
+    margin-left: 173px;
+}
+
+.bottom__media{
+    color: #3D3D3D;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.social__media{
+    margin-top: 20px;
+    column-gap: 10px;
+}
+
+.bottom__accept{
+    margin-top: 33px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.bottom__pay{
+    margin-top: 13px;
+}
+
+.bottom{
+    margin-top: 7px;
+}
+
+.bottom__text{
+    text-align: center;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.bottom__section__a:hover{
+    color: #679455;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.bottom__section__head:hover{
+    color: #679455;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.social__media__fc:hover{
+    stroke: #000;
+    stroke-opacity: 0.4;
+    fill: #000;
+    fill-opacity: 1;
+}
+
+.social__media__inst:hover{
+    stroke: #000;
+    stroke-opacity: 0.4;
+    fill: #000;
+    fill-opacity: 1;
+}
+
+.social__media__twit:hover{
+    stroke: #000;
+    stroke-opacity: 0.4;
+    fill: #000;
+    fill-opacity: 1;
+}
+
+.social__media__in:hover{
+    stroke: #000;
+    stroke-opacity: 0.4;
+    fill: #000;
+    fill-opacity: 1;
+}
+
+.social__media__yt:hover{
+    stroke: #000;
+    stroke-opacity: 0.4;
+    fill: #000;
+    fill-opacity: 1;    
+}
+
+.haupt__one{
+    display: flex;
+    padding: 60px 105px 82px 135px;
+}
+
+/* .title{
+    padding: 14px 189px 377px 18px;
+    background: #FBFBFB; 
+} */
+
+.categories__one{
+    padding: 14px 199px 7px 18px;
+    background-color: #FBFBFB;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.sub__title__one{
+    padding: 0 189px 377px 30px;
+    min-width: 95px;
+    background-color: #FBFBFB;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.sub__title__house{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__house:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__potter{
+    color: #3D3D3D;
+}
+
+.sub__title__seeds{
+    color: #3D3D3D;
+}
+
+.sub__title__small{
+    color: #3D3D3D;
+}
+
+.sub__title__big{
+    color: #3D3D3D;
+}
+
+.sub__title__succulents{
+    color: #3D3D3D;
+}
+
+.sub__title__trerrariums{
+    color: #3D3D3D;
+}
+
+.sub__title__gardening{
+    color: #3D3D3D;
+}
+
+.sub__title__accessories{
+    color: #3D3D3D;    
+}
+
+.sub__title__potter:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__seeds:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__small:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__big:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__succulents:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__trerrariums:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__gardening:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;
+}
+
+.sub__title__accessories:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-weight: 700;   
+}
+
+.super__sale__one{
+    max-width: 310px;
+}
+
+.haupt__header__one{
+    padding-left: 50px;
+}
+
+.header__one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__header__one{
+    display: flex;
+    column-gap: 39px;
+}
+
+.first__header__all__one{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.active__one{
+    padding-bottom: 4px;
+    border-bottom: 3px solid #46A358;
+}
+
+.first__header__new__one{
+    min-width: 91px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.first__header__new__one:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.first__header__sale__one{
+    min-width: 31px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.first__header__sale__one:hover{
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.second__header__one{
+    display: flex ;
+}
+
+.second__header__icon__one{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    padding: 0px 3.333px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.second__header__short{
+    padding-right: 8px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.barberton{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.angel{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.african{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.blushing{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.beach{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.aluminum{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.bird{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.broadleaf{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.chinese{
+    position: relative;
+    border: rgba(255, 255, 255, 0) 1px solid;
+}
+
+.barberton .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.angel .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.african .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.beach .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.blushing .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.aluminum .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.bird .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.broadleaf .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.chinese .off__all{
+    position: absolute;
+    top: 14px;
+    color: #FFF;
+    font-family: 'Cera Pro Medium', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 7px 8px 6px 9px;
+    background-color: #46A358;
+}
+
+.off__all__1{
+    position: relative;
+}
+
+.second__header__default__one{
+    padding-right: 5px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.flowers__one{
+    padding-top: 31px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    row-gap: 70px;
+}
+
+.names{
+    margin-top: 12px;
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.prices__sell{
+    display: flex;
+    column-gap: 16px;
+}
+
+.prices{
+    margin-top: 6px;
+    color: #46A358;
+    font-family: 'Cera Pro Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.prices__sell .pricess__sell_all{
+    text-decoration: line-through;
+    color: #A5A5A5;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.img__barberton{
+    padding: 31px 4px 19px;
+    background-color: #FBFBFB;
+}
+
+.img__angel{
+    padding: 25px 4px;
+    background-color: #FBFBFB;
+}
+
+.img__african{
+    padding: 24px 4px 26px;
+    background-color: #FBFBFB;
+}
+
+.img__beach{
+    /* margin-top: 70px; */
+    padding: 6px 13px 8px 21px;
+    background-color: #FBFBFB;
+}
+
+.img__blushing{
+    /* margin-top: 70px; */
+    padding: 23px 4px 27px;
+    background-color: #FBFBFB;
+}
+
+.img__aluminum{
+    /* margin-top: 70px; */
+    padding: 23px 4px 27px;
+    background-color: #FBFBFB;
+}
+
+.img__bird{
+    /* margin-top: 70px; */
+    padding: 18px 4px 32px;
+    background-color: #FBFBFB;
+}
+
+.img__broadleaf{
+    /* margin-top: 70px; */
+    padding: 28px 4px 22px;
+    background-color: #FBFBFB;
+}
+
+.img__chinese{
+    /* margin-top: 70px; */
+    padding: 19px 4px 31px;
+    background-color: #FBFBFB;
+}
+
+.activess{ 
+    font-family: 'Cera Pro Medium', sans-serif; 
+    padding: 8px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    /* отступ между двумя или более элементами (только между флекс) */
+    color: #fff;
+    border-radius: 6px;
+    border: #46A358;
+    background-color: #46A358;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.next__sides__one{
+    padding-top: 90px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: flex-end;
+}
+
+.sides__one{
+    color: #FFF;
+    font-family: 'Cera Pro Bold', sans-serif;
+    padding: 10px 13px;
+    /* display: flex; */
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px; 
+    border-radius: 4px;
+    border: #46A358;
+    background: #46A358;
+}
+
+.sed__sides__one{
+    color: #3D3D3D;
+    font-family: 'Cera Pro Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    padding: 9px 12px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+}
+
+.sed__sides__one:hover{
+    color: #FFF;
+    font-family: 'Cera Pro Bold', sans-serif;
+    padding: 9px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px; 
+    border-radius: 4px;
+    border: 1px solid #46A358;
+    background: #46A358;
+}
+
+.sidenext__one{
+    padding: 0 17.5px;
+    background-image: url(../all/img/arrow-right2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sidenext__one:hover{
+    padding: 0 17.5px;
+    background-image: url(../all/img/arrow-right\ 2-white.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.barberton:hover{
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.angel:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.african:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.beach:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.blushing:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.aluminum:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.bird:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.broadleaf:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.chinese:hover{
+    position: relative;
+    border-top: #46A358 1px solid;
+    opacity: 1;
+}
+
+.svg__all{
+    position: absolute;
+    display: flex;
+    column-gap: 26px;
+    top: 270px;
+    left: 70px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.svg__shop{
+    fill: #3D3D3D;
+}
+
+.svg__heart{
+    fill: #3D3D3D;
+}
+
+.svg__loop{
+    fill: #3D3D3D;
+}
+
+.svg__shop:hover{
+    fill: #46A358;
+}
+
+.svg__heart:hover{
+    fill: #46A358;
+}
+
+.svg__loop:hover{
+    fill: #46A358;
+}
+
+.barberton:hover .svg__all{
+    opacity: 1;
+}
+
+.angel:hover .svg__all{
+    opacity: 1;
+}
+
+.african:hover .svg__all{
+    opacity: 1;
+}
+
+.beach:hover .svg__all{
+    opacity: 1;
+}
+
+.blushing:hover .svg__all{
+    opacity: 1;
+}
+
+.aluminum:hover .svg__all{
+    opacity: 1;
+}
+
+.bird:hover .svg__all{
+    opacity: 1;
+}
+
+.broadleaf:hover .svg__all{
+    opacity: 1;
+}
+
+.chinese:hover .svg__all{
+    opacity: 1;
+}
