@@ -1135,14 +1135,14 @@
 
 .sidenext__one{
     padding: 0 17.5px;
-    background-image: url(../all/img/arrow-right2.svg);
+    background-image: url(./img/arrow-right2.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .sidenext__one:hover{
     padding: 0 17.5px;
-    background-image: url(../all/img/arrow-right\ 2-white.svg);
+    background-image: url(./img/arrow-right\ 2-white.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
