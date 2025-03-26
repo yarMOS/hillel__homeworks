@@ -53,6 +53,7 @@
 .list-item__two.active__two:hover{
     border-bottom: 3px solid #46A358;
     font-family: 'Cera Pro Bold', sans-serif; 
+    font-weight: 700;
 }
 
 .cta__two{
@@ -298,21 +299,21 @@
 .sub__header__photo1{
     width: 77px;
     height: 96px;
-    background-image: url(../img1/flower1.svg);
+    background-image: url(./img1/flower1.svg);
     background-repeat: no-repeat;
 }
 
 .sub__header__photo2{
     width: 83px;
     height: 92px;
-    background-image: url(../img1/flower2.svg);
+    background-image: url(./img1/flower2.svg);
     background-repeat: no-repeat;
 }
 
 .sub__header__photo3{
     width: 90px;
     height: 92px;
-    background-image: url(../img1/flower3.svg);
+    background-image: url(./img1/flower3.svg);
     background-repeat: no-repeat;
 }
 
