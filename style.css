@@ -626,7 +626,7 @@
 }
 
 .sub__title__one{
-    padding: 0 189px 377px 30px;
+    padding: 0 24px 377px 30px;
     min-width: 95px;
     background-color: #FBFBFB;
     color: #3D3D3D;
@@ -636,10 +636,35 @@
     line-height: 40px;
 }
 
-.sub__title__house{
+.sub__title__one label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub__title_all:hover label{
+    color: #46A358;
+}
+
+.sub__title_all:hover p{
+    color: #46A358;
+}
+
+.hidden-checkbox{
+    display: none;
+}
+
+.sub__title__one li a:hover{
+    color: #46A358;
+}
+
+.sub__title__house label{
     color: #46A358;
     font-family: 'Cera Pro Bold', sans-serif;
     font-weight: 700;
+}
+
+.sub__title__house p{
+    color: #46A358;
 }
 
 .sub__title__house:hover{
@@ -1163,6 +1188,7 @@
     position: relative;
     border-top: #46A358 1px solid;
     opacity: 1;
+    transform-origin: center;
 }
 
 .beach:hover{
@@ -1270,3 +1296,25 @@
 .chinese:hover .svg__all{
     opacity: 1;
 }
+
+/* .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #ff6600;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.4s ease;
+}
+
+.image-container:hover::after {
+    transform: scaleX(1);
+} */
