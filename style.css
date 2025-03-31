@@ -610,11 +610,6 @@
     padding: 60px 105px 82px 135px;
 }
 
-/* .title{
-    padding: 14px 189px 377px 18px;
-    background: #FBFBFB; 
-} */
-
 .categories__one{
     padding: 14px 199px 7px 18px;
     background-color: #FBFBFB;
@@ -641,36 +636,8 @@
     justify-content: space-between;
 }
 
-.sub__title_all:hover label{
-    color: #46A358;
-}
-
-.sub__title_all:hover p{
-    color: #46A358;
-}
-
-.hidden-checkbox{
-    display: none;
-}
-
 .sub__title__one li a:hover{
     color: #46A358;
-}
-
-.sub__title__house label{
-    color: #46A358;
-    font-family: 'Cera Pro Bold', sans-serif;
-    font-weight: 700;
-}
-
-.sub__title__house p{
-    color: #46A358;
-}
-
-.sub__title__house:hover{
-    color: #46A358;
-    font-family: 'Cera Pro Bold', sans-serif;
-    font-weight: 700;
 }
 
 .sub__title__potter{
@@ -1297,24 +1264,216 @@
     opacity: 1;
 }
 
-/* .image-container {
-    position: relative;
-    display: inline-block;
+.checkbox {
+    display: none;
 }
 
-.image-container::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 3px;
-    background-color: #ff6600;
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.4s ease;
+.checkbox1__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
 }
 
-.image-container:hover::after {
-    transform: scaleX(1);
-} */
+.checkbox1:checked ~ .checkbox1__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox1:checked + .checkbox1__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox1_label:hover {
+    font-weight: 700;
+}
+
+.checkbox2__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox2:checked ~ .checkbox2__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox2.african:hover + .checkbox2__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox2__label:hover {
+    font-weight: 700;
+}
+
+.checkbox2__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox2:checked ~ .checkbox2__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox2:checked + .checkbox2__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox2__label:hover {
+    font-weight: 700;
+}
+
+.checkbox3__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox3:checked ~ .checkbox3__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox3:checked + .checkbox3__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox3__label:hover {
+    font-weight: 700;
+}
+
+.checkbox4__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox4:checked ~ .checkbox4__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox4:checked + .checkbox4__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox4__label:hover {
+    font-weight: 700;
+}
+
+.checkbox5__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox5:checked ~ .checkbox5__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox5:checked + .checkbox5__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox5__label:hover {
+    font-weight: 700;
+}
+
+.checkbox6__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox6:checked ~ .checkbox6__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox6:checked + .checkbox6__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox1__label:hover {
+    font-weight: 700;
+}
+
+.checkbox7__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox7:checked ~ .checkbox7__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox7:checked + .checkbox7__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox7__label:hover {
+    font-weight: 700;
+}
+
+.checkbox8__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox8:checked ~ .checkbox8__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox8:checked + .checkbox8__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox8__label:hover {
+    font-weight: 700;
+}
+
+.checkbox9__label {
+    cursor: pointer;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.checkbox9:checked ~ .checkbox9__label {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox9:checked + .checkbox9__label p {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.checkbox9__label:hover {
+    font-weight: 700;
+}
