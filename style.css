@@ -607,6 +607,7 @@
 
 .haupt__one{
     display: flex;
+    justify-content: space-around;
     padding: 60px 105px 82px 135px;
 }
 
