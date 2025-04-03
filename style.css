@@ -111,7 +111,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 43px;
-    padding-bottom: 85px;
+    /* padding-bottom: 85px; */
     background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
 }
 
@@ -126,7 +126,7 @@
 }
 
 .planet__two{
-    max-width: 60%;
+    /* max-width: 90%; */
     margin-top: 7px;
     font-family: 'Cera Pro Bold', sans-serif; 
     color: #3d3d3d;
@@ -607,7 +607,6 @@
 
 .haupt__one{
     display: flex;
-    justify-content: space-around;
     padding: 60px 105px 82px 135px;
 }
 
@@ -736,6 +735,7 @@
 
 .first__header__one{
     display: flex;
+    justify-content: space-around;
     column-gap: 39px;
 }
 
@@ -979,9 +979,9 @@
     padding-top: 31px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 900px;
+    justify-content: start;
     row-gap: 70px;
+    column-gap: 33px;
 }
 
 .names{
