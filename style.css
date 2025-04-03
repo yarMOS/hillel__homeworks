@@ -296,6 +296,10 @@
     column-gap: 30px;
 }
 
+.left__header{
+    flex-basis: 100%;
+}
+
 .sub__header__photo1{
     width: 77px;
     height: 96px;
@@ -476,9 +480,9 @@
 }
 
 .over__bottom{
-    padding: 33px 155px 27px 25px;
+    padding: 33px 25px 27px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     border-bottom: 1px solid rgba(70, 163, 88, 0.20);
 }
 
@@ -1477,4 +1481,30 @@
 
 .checkbox9__label:hover {
     font-weight: 700;
+}
+
+.left__header{
+    flex-basis: 100%;
+}
+
+
+@media screen and (max-width: 1080px){
+    .middle{
+        column-gap: 20px;
+    }
+    .header{
+        column-gap: 5px;
+    }
+    .bottom__section2{
+        margin-left: 75px;
+    }
+    .bottom__section3{
+        margin-left: 75px;
+    }
+    .bottom__sm{
+        margin-left: 75px;
+    }
+    .upppermost{
+        padding: 0;
+    }
 }
