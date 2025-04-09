@@ -120,6 +120,11 @@
   justify-content: space-between;
 }
 
+.menu-offers-sub-header__about {
+  position: relative;
+  top: -33px;
+}
+
 .ul-menu-offers-sub-header__about {
   display: none;
 }
@@ -297,7 +302,7 @@
 
 .switch2-bottom__about:hover {
   transition: all 0.4s ease;
-  opacity: 0.1;
+  opacity: 1;
   fill: #24A3FF;
 }
 
