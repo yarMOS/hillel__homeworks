@@ -178,6 +178,7 @@
 }
 
 .healthy__header{
+    max-height: 322px;
     margin-top: 30px;
     padding-left: 30px;
     border-left: 4px solid #E6E6F0;
@@ -515,15 +516,10 @@
     .middle__about{
         min-width: 768px;
         min-height: 233px;
-        background: url(../img-about/Team-about.jpg) center center / cover no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .text-middle__about{
         font-size: 46px;
         letter-spacing: 63px;
-        text-transform: uppercase;
     }
     .bottom__about{
         padding: 30px 60px;
@@ -531,23 +527,31 @@
     .fotos-bottom__about{
         column-gap: 40px;
         &-1{
+            min-width: 53.333px;
+            min-height: 40px;
             padding: 24.4px 39.7px 25.6px 39px;
         }
-        &-2{
-            display: block;
+        &-2{display: block;
+            min-width: 106px;
+            min-height: 40px;
+            
             padding: 24.4px 13px 25.6px 13px;
             border-radius: 12px;
             background: var(--Basic-White, #FFF);
         }
-        &-3{
+        &-3{display: block;
+            min-width: 130px;
+            min-height: 40px;
             padding: 24.4px 1px 25.6px;
-            display: block;
+            
             border-radius: 12px;
             background: var(--Basic-White, #FFF);             
         }
-        &-4{
+        &-4{display: block;
+            min-width: 110.667px;
+            min-height: 40px;
             padding: 24.4px 10px 25.6px 11px;
-            display: block;
+            
             border-radius: 12px;
             background: var(--Basic-White, #FFF);            
         }
@@ -593,5 +597,207 @@
     }
     .email-contact__bottom{
         margin-top: 9px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .logo{
+        order: 1;
+        margin: 0;
+    }
+    .header__top__about{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo-sub-header__about{
+        margin: 0;
+    }
+    .sub-header__about{
+        display: flex;
+        justify-content: space-between;
+        padding: 6.5px 60px 0;
+    }
+    .ul-menu-offers-sub-header__about{
+        position: relative;
+        margin: 0;
+        top: -5px;
+    }
+    .healthy__header{
+        margin: 0;
+    }
+    .info__header__about{
+        display: flex;
+        justify-content: left;
+        column-gap: 30px;
+    }
+    .h1-text-header__about{
+        margin-top: 0;
+        max-width: 482px;
+    }
+    .p-text-header__about{
+        max-width: 482px;
+    }
+    .sub-healthy__header{
+        &-second{
+            max-width: 354px;
+        }
+    }
+    .middle__about{
+        min-width: 1024px;
+        min-height: 311px;
+    }
+    .text-middle__about{
+        font-size: 86px;
+    }
+    .info__header__about{
+        display: flex;
+        column-gap: 60px;
+        padding-top: 60px;
+    }
+    .info__header__about-section{
+        max-width: 362px;
+    }
+    .bottom__about{
+        padding: 30px 60px;
+    }
+    .fotos-bottom__about{
+        justify-content: space-between;
+        &-1{
+            min-width: 80px;
+            min-height: 60px;
+            padding: 25px 58px;
+        }
+        &-2{
+            min-width: 159px;
+            min-height: 60px;
+            padding: 25px 18px 25px 19px;
+        }
+        &-3{
+            min-width: 195px;
+            min-height: 60px;
+            padding: 25px 1px;
+        }
+        &-4{
+            min-width: 166px;
+            min-height: 60px;
+            padding: 25px 15px;
+        }
+    }
+    .switch-info-bottom__about{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .info-bottom__about{
+        margin: 0;
+        padding: 0;
+    }
+    .p-text-info-bottom__about{
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1440px){
+    .info__header__about{
+        column-gap: 30px;
+        padding: 60px 180px;
+    }
+    .text-header__about{
+        justify-content: space-between;
+    }
+    .h1-text-header__about{
+        max-width: 662px;
+    }
+    .p-text-header__about{
+        max-width: 710px;
+    }
+    .middle__about{
+        min-width: 1440px;
+        min-height: 438px;
+    }
+    .text-middle__about{
+        font-size: 96px;
+    }
+    .info__header__about-bottom{
+        column-gap: 60px;
+    }
+    .info__header__about{
+        justify-content: space-between;
+        padding: 60px 180px;
+        &-second{
+            max-width: 656.5px;
+        }
+        &-section{
+            max-width: 362px;
+        }
+    }
+    .fotos-bottom__about{
+        &-1{
+            min-width: 80px;
+            min-height: 60px;
+            padding: 25px 110px;
+        }
+        &-2{
+            min-width: 159px;
+            min-height: 60px;
+            padding: 25px 70px 25px 71px;
+        }
+        &-3{
+            min-width: 195px;
+            min-height: 60px;
+            padding: 25px 52px 25px 53px;
+        }
+        &-4{
+            min-width: 166px;
+            min-height: 60px;
+            padding: 25px 67px;
+        }
+    }
+    .switch-inf-bottom__about{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .header__about{
+        padding: 50px 160px 0;
+    }
+    .sub-header__about{
+        padding: 6.5px 160px 0;
+    }
+    .info__header__about{
+        padding: 60px 280px;
+    }
+    // .text-header__about{
+    //     min-width: 942px;
+    // }
+    .h1-text-header__about{
+        min-width: 939px;
+    }
+    .p-text-header__about{
+        min-width: 939px;
+    }
+    .middle__about{
+        min-width: 1920px;
+        min-height: 584px;
+    }
+    .info__header__about-section{
+        min-width: 362px;
+    }
+    .bottom__about{
+        padding: 30px 160px;
+    }
+    .fotos-bottom__about{
+        &-1{
+            padding: 25px 145px;
+        }
+        &-2{
+            padding: 25px 105px 25px 106px;
+        }
+        &-3{
+            padding: 25px 87px 25px 88px;
+        }
+        &-4{
+            padding: 25px 102px;
+        }
     }
 }
