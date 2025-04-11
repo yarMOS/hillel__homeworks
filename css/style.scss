@@ -3,7 +3,7 @@
     visibility: hidden;
   }
   .burger {
-    position: relative;
+    position: fixed;
     z-index: 1;
     cursor: pointer;
     display: block;
@@ -47,7 +47,7 @@
   .menu-list {
     top: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     display: grid;
     padding: 316px 0 0 0;
     background: rgb(109, 109, 153);
@@ -852,9 +852,6 @@
     .info__header__about{
         padding: 60px 280px;
     }
-    // .text-header__about{
-    //     min-width: 942px;
-    // }
     .h1-text-header__about{
         min-width: 939px;
     }
