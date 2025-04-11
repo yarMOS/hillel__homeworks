@@ -193,13 +193,13 @@
 }
 
 .p-info-active__about {
-  color: var(--Basic-White, #FFF);
+  color: var(--Basic-White, #fff);
   border-radius: 8px;
   background: var(--Accent, #F0145A);
 }
 
 .p-info__about:hover {
-  color: var(--Basic-White, #FFF);
+  color: var(--Basic-White, #fff);
   border-radius: 8px;
   background: var(--Accent, #F0145A);
   transition: all 0.4s ease;
@@ -325,7 +325,7 @@
 }
 
 .text-middle__about {
-  color: var(--Basic-White, #FFF);
+  color: var(--Basic-White, #fff);
   text-align: center;
   text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
   font-size: 36px;
@@ -371,7 +371,7 @@
   padding: 24.4px 101px 25.6px;
   align-items: center;
   border-radius: 12px;
-  background: var(--Basic-White, #FFF);
+  background: var(--Basic-White, #fff);
 }
 .fotos-bottom__about-2 {
   display: none;
@@ -641,7 +641,7 @@
     min-height: 40px;
     padding: 24.4px 13px 25.6px 13px;
     border-radius: 12px;
-    background: var(--Basic-White, #FFF);
+    background: var(--Basic-White, #fff);
   }
   .fotos-bottom__about-3 {
     display: block;
@@ -649,7 +649,7 @@
     min-height: 40px;
     padding: 24.4px 1px 25.6px;
     border-radius: 12px;
-    background: var(--Basic-White, #FFF);
+    background: var(--Basic-White, #fff);
   }
   .fotos-bottom__about-4 {
     display: block;
@@ -657,7 +657,7 @@
     min-height: 40px;
     padding: 24.4px 10px 25.6px 11px;
     border-radius: 12px;
-    background: var(--Basic-White, #FFF);
+    background: var(--Basic-White, #fff);
   }
   .switch-bottom__about-mobile {
     display: none;

@@ -1,3 +1,12 @@
+$cfff: #fff;
+$c323264: #323264;
+$cF5F5FA: #F5F5FA;
+$c24A3FF: #24A3FF;
+$cF0145A: #F0145A;
+$cB3B3BA: #B3B3BA;
+$cE6E6F0: #E6E6F0;
+$c46466E: #46466E;
+
 .burger-checkbox {
     position: absolute;
     visibility: hidden;
@@ -22,11 +31,11 @@
     width: 100%;
     height: 4px;
     border-radius: 10px;
-    background: #323264;
+    background: $c323264;
   }
   .burger::before {
     top: 0;
-    box-shadow: 0 11px 0 #323264;
+    box-shadow: 0 11px 0 $c323264;
     transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
   }
   .burger::after {
@@ -60,15 +69,15 @@
     display: grid;
     margin: 0 8px;
     padding: 15px;
-    background-color: #fff;
+    background-color: $cfff;
     border-radius: 12px 12px 0 0;
     row-gap: 7.5px;
   }
   .menu-item {
-    background-color: #F5F5FA;
+    background-color: $cF5F5FA;
     display: block;
     padding: 7px 0;
-    color: var(--Active-Regular, #24A3FF);
+    color: var(--Active-Regular, $c24A3FF);
     text-align: center;
     font-family: Montserrat;
     font-size: 24px;
@@ -78,10 +87,10 @@
     border-radius: 12px;
   }
   .menu-item-active{
-    color: var(--Accent, #F0145A);
+    color: var(--Accent, $cF0145A);
   }
   .menu-item:hover {
-    background: var(--Grey-Separator, #E6E6F0);
+    background: var(--Grey-Separator, $cE6E6F0);
   }
   .burger-checkbox:checked ~ .menu-list {
     transform: translateX(0);
@@ -95,7 +104,7 @@
 }
 
 .svg12:hover{
-    fill: #E6E6F0;
+    fill: $cE6E6F0;
     transition: all 0.4s ease;
     cursor: pointer;
 }
@@ -127,7 +136,7 @@
 }
 
 .p-logo{
-    color: var(--Main-Regular, #323264);
+    color: var(--Main-Regular, $c323264);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -139,7 +148,7 @@
 }
 
 .info-header__about{
-    background: #F5F5FA;
+    background: $cF5F5FA;
 }
 
 .info__about .svg-info__about{
@@ -168,7 +177,7 @@
 .p-info__about{
     padding: 5px 7px;
     text-align: center;
-    color: var(--Grey-Text, #B3B3BA);
+    color: var(--Grey-Text, $cB3B3BA);
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -178,22 +187,22 @@
 }
 
 .p-info-active__about{
-    color: var(--Basic-White, #FFF);
+    color: var(--Basic-White, $cfff);
     border-radius: 8px;
-    background: var(--Accent, #F0145A);
+    background: var(--Accent, $cF0145A);
 }
 
 .p-info__about:hover{
-    color: var(--Basic-White, #FFF);
+    color: var(--Basic-White, $cfff);
     border-radius: 8px;
-    background: var(--Accent, #F0145A);
+    background: var(--Accent, $cF0145A);
     transition: all 0.4s ease;
     cursor: pointer;
 }
 
 .tel-info__about{
     padding-top: 12.5px;
-    color: var(--Grey-Text, #B3B3BA);
+    color: var(--Grey-Text, $cB3B3BA);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -201,7 +210,7 @@
 }
 
 .tel-info__about:hover{
-    color: var(--Main-Alt, #46466E);
+    color: var(--Main-Alt, $c46466E);
     transition: all 0.4s ease;
 }
 
@@ -228,7 +237,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+    background: var(--Gradient-Red-Text, linear-gradient(90deg, $cF0145A 0.84%, #EF8080 99.96%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -250,7 +259,7 @@
     max-height: 322px;
     margin-top: 30px;
     padding-left: 30px;
-    border-left: 4px solid #E6E6F0;
+    border-left: 4px solid $cE6E6F0;
 }
 
 .row-healthy__header{
@@ -288,7 +297,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+    background: var(--Gradient-Red-Text, linear-gradient(90deg, $cF0145A 0.84%, #EF8080 99.96%));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -308,7 +317,7 @@
 }
 
 .text-middle__about{
-    color: var(--Basic-White, #FFF);
+    color: var(--Basic-White, $cfff);
     text-align: center;
     text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.80);
     font-size: 36px;
@@ -326,7 +335,7 @@
 
 .bottom__about{
     padding: 30px;
-    background-color: #F5F5FA;
+    background-color: $cF5F5FA;
 }
 
 .bottom__about .svg-info__about{
@@ -334,7 +343,7 @@
 }
 
 .text-bottom__about{
-    color: var(--Main-Regular, #323264);
+    color: var(--Main-Regular, $c32326);
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -353,7 +362,7 @@
         padding: 24.4px 101px 25.6px;
         align-items: center;
         border-radius: 12px;
-        background: var(--Basic-White, #FFF);
+        background: var(--Basic-White, $cfff);
     }
     &-2{
         display: none;
@@ -372,25 +381,25 @@
     margin-top: 30px;
     column-gap: 14px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #E6E6F0;
+    border-bottom: 2px solid $cE6E6F0;
 }
 
 .switch2-bottom__about{
     opacity: 0.2;
-    fill: #24A3FF;
+    fill: $c24A3FF;
 }
 
 .switch2-bottom__about:hover{
     transition: all 0.4s ease;
     opacity: 1;
-    fill: #24A3FF;
+    fill: $c24A3FF;
 }
 
 
 .p-info-bottom__about{
     margin-top: 30px;
     text-align: center;
-    color: var(--Main-Regular, #323264);
+    color: var(--Main-Regular, $c32326);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -406,7 +415,7 @@
     margin-top: 10px;
     text-align: center;
     display: block;
-    color: var(--Active-Regular, #24A3FF);
+    color: var(--Active-Regular, $c24A3FF);
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
@@ -416,7 +425,7 @@
 }
 
 .blue-info-bottom__about:hover{
-    color: var(--Accent, #F0145A);
+    color: var(--Accent, $cF0145A);
     transition: all 0.4s ease;
 }
 
@@ -429,16 +438,16 @@
 
 .fb-blue-info__about{
     margin-top: 21px;
-    fill: #24A3FF;
+    fill: $c24A3FF;
 }
 
 .fb-blue-info__about:hover{
-    fill: #F0145A;
+    fill: $cF0145A;
     transition: all 0.4s ease;
 }
 
 .tel-contact__bottom{
-    color: var(--Main-Alt, #46466E);
+    color: var(--Main-Alt, $c46466E);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -446,7 +455,7 @@
 }
 
 .email-contact__bottom{
-    color: var(--Active-Regular, #24A3FF);
+    color: var(--Active-Regular, $c24A3FF);
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -454,14 +463,14 @@
 }
 
 .email-contact__bottom:hover{
-    color: var(--Accent, #F0145A);
+    color: var(--Accent, $cF0145A);
     transition: all 0.4s ease;
 }
 
 .p-text-info-bottom__about{
     margin-top: 30px;
     align-self: stretch;
-    color: var(--Grey-Text, #B3B3BA);
+    color: var(--Grey-Text, $cB3B3BA);
     text-align: center;
     font-size: 16px;
     font-style: normal;
@@ -493,7 +502,7 @@
     .info__about .location-info__about{
         margin-top: 2.5px;
         display: block;
-        color: var(--Grey-Text, #B3B3BA);
+        color: var(--Grey-Text, $cB3B3BA);
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -516,10 +525,10 @@
         margin-top: 9.5px;
     }
     .fb-gray-info__about svg{
-        fill: #B3B3BA;
+        fill: $cB3B3BA;
     }
     .fb-gray-info__about:hover svg{
-        fill: #F0145A;
+        fill: $cF0145A;
         transition: all 0.4s ease;
     }
     .burger-checkbox{
@@ -571,7 +580,7 @@
         padding: 0;
         background-color: transparent;
         padding-bottom: 5px;
-        color: var(--Active-Regular, #24A3FF);
+        color: var(--Active-Regular, $c24A3FF);
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -580,17 +589,17 @@
     }
     .menu-item:hover{
         background-color: transparent;
-        color: var(--Accent, #F0145A);
-        border-bottom: 2px solid #F0145A;
+        color: var(--Accent, $cF0145A);
+        border-bottom: 2px solid $cF0145A;
     }
     .header-logo-red__about{
-        color: var(--Accent, #F0145A);
+        color: var(--Accent, $cF0145A);
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         padding-bottom: 5px;
-        border-bottom: 2px solid #F0145A;
+        border-bottom: 2px solid $cF0145A;
     }
     .info__header__about{
         padding: 65px 60px 60px;
@@ -622,7 +631,7 @@
             
             padding: 24.4px 13px 25.6px 13px;
             border-radius: 12px;
-            background: var(--Basic-White, #FFF);
+            background: var(--Basic-White, $cfff);
         }
         &-3{display: block;
             min-width: 130px;
@@ -630,7 +639,7 @@
             padding: 24.4px 1px 25.6px;
             
             border-radius: 12px;
-            background: var(--Basic-White, #FFF);             
+            background: var(--Basic-White, $cfff);             
         }
         &-4{display: block;
             min-width: 110.667px;
@@ -638,7 +647,7 @@
             padding: 24.4px 10px 25.6px 11px;
             
             border-radius: 12px;
-            background: var(--Basic-White, #FFF);            
+            background: var(--Basic-White, $cfff);            
         }
     }
     .switch-bottom__about{
