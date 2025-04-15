@@ -33,10 +33,17 @@ $c46466E: #46466E;
     height: 3px;
     background: $c323264;
   }
+  .burger-dark::before,
+  .burger-dark::after{
+    background: $cfff;
+  }
   .burger::before {
     top: 0;
     box-shadow: 0 11px 0 $c323264;
     transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  }
+  .burger-dark.burger-dark::before{
+    box-shadow: 0 11px 0 $cfff;
   }
   .burger::after {
     bottom: 0;
@@ -111,6 +118,7 @@ $c46466E: #46466E;
 
 .header__top__about{
     display: grid;
+    background: $c323264;
 }
 
 .logo{
@@ -121,18 +129,29 @@ $c46466E: #46466E;
 }
 
 .logo-1{
+    fill: $c46466E;
     width: 69.333px;
     height: 32px;
 }
 
-.logo-2{
+.logo-1-dark{
+    fill: $cfff;
+    width: 69.333px;
+    height: 32px;
+}
+
+.logo-2 {
     width: 12px;
     height: 26px;
 }
 
 .logo-sub-header__about{
+    fill: $c323264;
     width: 70px;
     height: 5px;
+    &-dark{
+        fill: $cfff;
+    }
 }
 
 .p-logo{
@@ -141,18 +160,26 @@ $c46466E: #46466E;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    &-dark{
+        color: $cfff;
+    }
 }
 
-.info-header__about{
-    order: 1;    
+.header__about-dark{
+    background:#323264;
 }
 
 .info-header__about{
     background: $cF5F5FA;
+    order: 1;    
+    &-dark{
+        background: #5f5680
+    }
 }
 
 .info__about .svg-info__about{
     display: none;
+    fill: #E6E6F0;
 }
 
 .info__about .location-info__about{
@@ -184,6 +211,9 @@ $c46466E: #46466E;
     line-height: normal;
     letter-spacing: 1px;
     cursor: pointer;
+    &-dark{
+        color: $cfff;
+    }
 }
 
 .p-info-active__about{
@@ -195,7 +225,7 @@ $c46466E: #46466E;
 .p-info__about:hover{
     color: var(--Basic-White, $cfff);
     border-radius: 8px;
-    background: var(--Accent, $cF0145A);
+    background: var(--Accent, $cB3B3BA);
     transition: all 0.4s ease;
     cursor: pointer;
 }
@@ -207,6 +237,9 @@ $c46466E: #46466E;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    &-dark{
+        color: $cfff;
+    }
 }
 
 .tel-info__about:hover{
@@ -218,6 +251,9 @@ $c46466E: #46466E;
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
+    &-dark{
+        background:#323264 11.93%;
+    }
 }
 
 .info__header__about{
@@ -245,6 +281,9 @@ $c46466E: #46466E;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 30px;
+    }
+    &-dark{
+        background: var(--Gradient-Supersoft, linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%));
     }
 }
 
@@ -732,7 +771,13 @@ $c46466E: #46466E;
         &-1{
             width: 130px;
             height: 46.499px;
+                &-dark{
+                fill: $cfff;
+                width: 130px;
+                height: 46.499px;
+            }
         }
+        
         &-2{
             width: 21px;
             height: 47px;

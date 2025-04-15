@@ -26,10 +26,19 @@
   background: #323264;
 }
 
+.burger-dark::before,
+.burger-dark::after {
+  background: #fff;
+}
+
 .burger::before {
   top: 0;
   box-shadow: 0 11px 0 #323264;
   transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
+}
+
+.burger-dark.burger-dark::before {
+  box-shadow: 0 11px 0 #fff;
 }
 
 .burger::after {
@@ -115,6 +124,7 @@
 
 .header__top__about {
   display: grid;
+  background: #323264;
 }
 
 .logo {
@@ -126,6 +136,13 @@
 }
 
 .logo-1 {
+  fill: #46466E;
+  width: 69.333px;
+  height: 32px;
+}
+
+.logo-1-dark {
+  fill: #fff;
   width: 69.333px;
   height: 32px;
 }
@@ -136,8 +153,12 @@
 }
 
 .logo-sub-header__about {
+  fill: #323264;
   width: 70px;
   height: 5px;
+}
+.logo-sub-header__about-dark {
+  fill: #fff;
 }
 
 .p-logo {
@@ -147,17 +168,25 @@
   font-weight: 400;
   line-height: normal;
 }
+.p-logo-dark {
+  color: #fff;
+}
 
-.info-header__about {
-  order: 1;
+.header__about-dark {
+  background: #323264;
 }
 
 .info-header__about {
   background: #F5F5FA;
+  order: 1;
+}
+.info-header__about-dark {
+  background: #5f5680;
 }
 
 .info__about .svg-info__about {
   display: none;
+  fill: #E6E6F0;
 }
 
 .info__about .location-info__about {
@@ -190,6 +219,9 @@
   letter-spacing: 1px;
   cursor: pointer;
 }
+.p-info__about-dark {
+  color: #fff;
+}
 
 .p-info-active__about {
   color: var(--Basic-White, #fff);
@@ -200,7 +232,7 @@
 .p-info__about:hover {
   color: var(--Basic-White, #fff);
   border-radius: 8px;
-  background: var(--Accent, #F0145A);
+  background: var(--Accent, #B3B3BA);
   transition: all 0.4s ease;
   cursor: pointer;
 }
@@ -213,6 +245,9 @@
   font-weight: 700;
   line-height: normal;
 }
+.tel-info__about-dark {
+  color: #fff;
+}
 
 .tel-info__about:hover {
   color: var(--Main-Alt, #46466E);
@@ -223,6 +258,9 @@
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
+}
+.sub-header__about-dark {
+  background: #323264 11.93%;
 }
 
 .info__header__about {
@@ -251,6 +289,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 30px;
+}
+.middle__team-dark {
+  background: var(--Gradient-Supersoft, linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%));
 }
 
 .person__team {
@@ -744,6 +785,11 @@
     margin-top: 30px;
   }
   .logo-1 {
+    width: 130px;
+    height: 46.499px;
+  }
+  .logo-1-dark {
+    fill: #fff;
     width: 130px;
     height: 46.499px;
   }
