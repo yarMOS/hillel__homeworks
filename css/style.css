@@ -237,9 +237,13 @@
 .p-info__about:hover {
   color: var(--Basic-White, #fff);
   border-radius: 8px;
-  background: var(--Accent, #B3B3BA);
+  background: var(--Accent, #F0145A);
   transition: all 0.4s ease;
   cursor: pointer;
+}
+
+.p-info__about-dark:hover {
+  background: #B3B3BA;
 }
 
 .tel-info__about {
@@ -848,6 +852,11 @@
 }
 .sub-bottom-service-fotos-12 {
   display: none;
+}
+
+.info-everything {
+  display: grid;
+  row-gap: 30px;
 }
 
 @media screen and (min-width: 768px) {

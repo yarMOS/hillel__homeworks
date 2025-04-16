@@ -230,9 +230,13 @@ $c46466E: #46466E;
 .p-info__about:hover{
     color: var(--Basic-White, $cfff);
     border-radius: 8px;
-    background: var(--Accent, $cB3B3BA);
+    background: var(--Accent, $cF0145A);
     transition: all 0.4s ease;
     cursor: pointer;
+}
+
+.p-info__about-dark:hover{
+    background: $cB3B3BA;
 }
 
 .tel-info__about{
@@ -835,6 +839,10 @@ $c46466E: #46466E;
     &-fotos-12{
         display: none;
     }
+}
+.info-everything{
+    display: grid;
+    row-gap: 30px;
 }
 @media screen and (min-width: 768px){
     .burger-checkbox,
