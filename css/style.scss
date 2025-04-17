@@ -8,6 +8,27 @@ $cB3B3BA: #B3B3BA;
 $cE6E6F0: #E6E6F0;
 $c46466E: #46466E;
 
+.everything{
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    background: var(--Gradient-Supersoft, linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%));
+}
+
+.everything::before {
+    content: "";
+    position: absolute;
+    right: -20%;
+    width: 523.404px;
+    height: 600px;
+    background-image: url(../img-about/Symbol.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    mix-blend-mode: overlay;
+    z-index: 0;
+}
+
 .burger-checkbox {
     position: absolute;
     visibility: hidden;
@@ -117,6 +138,10 @@ $c46466E: #46466E;
     fill: $cE6E6F0;
     transition: all 0.4s ease;
     cursor: pointer;
+}
+
+.header__about{
+    z-index: 1;
 }
 
 .header__top__about{
@@ -272,8 +297,18 @@ $c46466E: #46466E;
     }
     &-light{
         display: grid;
-        row-gap: 30px;
         background: $cF5F5FA;
+    }
+    &-text{
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
@@ -463,6 +498,9 @@ $c46466E: #46466E;
 .bottom__about{
     padding: 30px;
     background-color: $cF5F5FA;
+    &-padding{
+        padding-top: 0;
+    }
 }
 
 .bottom__about .svg-info__about{
@@ -509,6 +547,13 @@ $c46466E: #46466E;
     column-gap: 14px;
     padding-bottom: 30px;
     border-bottom: 2px solid $cE6E6F0;
+    &-bottom{
+        margin-top: 0;
+    }
+    &-none{
+        padding-bottom: 0;
+        border-bottom: none;
+    }
 }
 
 .switch2-bottom__about{
@@ -840,6 +885,155 @@ $c46466E: #46466E;
         display: none;
     }
 }
+
+.header-sub{
+    padding: 115px 50px 60px 60px;
+    text-align: center;
+    &-text{
+        color: $cfff;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &-svg{
+        margin-top: 159px;
+        stroke: white;
+    }
+    &-svg:hover {
+        stroke: $cF0145A;
+
+    }
+}
+.next-ser__pub{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    column-gap: 2px;
+    &-small{
+        margin-bottom: 5px;
+    }
+    &-name{
+        color: $c24A3FF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    &-svg{
+        padding-top: 1px;
+        stroke: $c24A3FF;
+    }
+}
+
+.next-ser__pub:hover .next-ser__pub-name{
+    color: $cF0145A;
+    transition: all 0.2s ease;
+}
+.next-ser__pub:hover .next-ser__pub-svg{
+    stroke: $cF0145A;
+    transition: all 0.2s ease;
+}
+
+.middle__home{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    row-gap: 30px;
+    &-spans{
+        display: flex;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: clip;
+        column-gap: 30px;
+        overflow-x: auto;
+    }
+    &-name{
+        color: $cB3B3BA;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &-active{
+            background: var(--Gradient-Text-Red-Reversed, linear-gradient(90deg, #EF8080 0.84%, #F0145A 99.96%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    &-name:hover{
+        color: $cF0145A;
+        transition: all 0.4s ease;
+    }
+    &-p{
+        display: grid;
+        row-gap: 30px;
+        max-width: 315px;
+        padding-top: 30px;
+        border-top: 4px rgba(255, 255, 255, 0.30) solid;
+        &-name{
+            color: $cfff;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+    &-text{
+        color: $cfff;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
+
+.peron__home{
+    padding: 30px 30px 0;
+    &-all{
+        display: flex;
+        flex-direction: column;
+    }
+    &-img{
+        max-width: 315px;
+        min-height: 500px;
+        border-radius: 12px 12px 0px 0px;
+    }
+    &-info{
+        padding: 30px;
+        border-radius: 0 0 12px 12px;
+        background: $cF5F5FA;
+    }
+    &-text{
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &-name{
+        margin-top: 30px;
+        color: $cB3B3BA;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &-work{
+        margin-top: 6px;
+        color: $cB3B3BA;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
 .info-everything{
     display: grid;
     row-gap: 30px;
