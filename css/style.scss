@@ -9,6 +9,7 @@ $cE6E6F0: #E6E6F0;
 $c46466E: #46466E;
 
 .everything{
+    border-radius: 0px 0px 12px 12px;
     position: relative;
     overflow: hidden;
     flex-direction: column;
@@ -297,7 +298,11 @@ $c46466E: #46466E;
     }
     &-light{
         display: grid;
+        row-gap: 30px;
         background: $cF5F5FA;
+        &-gap{
+            row-gap: 0;
+        }
     }
     &-text{
         margin-bottom: 30px;
@@ -993,12 +998,13 @@ $c46466E: #46466E;
 .peron__home{
     padding: 30px 30px 0;
     &-all{
+        max-height: 1087px;
         display: flex;
         flex-direction: column;
     }
     &-img{
-        max-width: 315px;
-        min-height: 500px;
+        min-width: 315px;
+        max-height: 500px;
         border-radius: 12px 12px 0px 0px;
     }
     &-info{
@@ -1408,6 +1414,64 @@ $c46466E: #46466E;
             background: $c000;
         }
     }
+    .everything::before {
+        right: -10%;
+        width: 893.277px;
+        height: 1024px;
+    }
+    .header-sub{
+        padding: 270px 50px 90px 60px;
+        &-svg{
+            margin-top: 417px;
+        }
+    }
+    .middle__home{
+        padding-left: 60px;
+        row-gap: 60px;
+        &-name{
+            font-size: 38px;
+        }
+        &-p{
+            max-width: 648px;
+            padding-top: 60px;
+            &-name{
+                font-size: 30px;
+            }
+        }
+    }
+    .peron__home{
+        padding: 60px 60px 0;
+        &-all{
+            max-height: 936px;
+        }
+        &-img{
+            min-width: 648px;
+            max-height: 500px;
+        }
+        &-info{
+            padding: 30px;
+            border-radius: 0 0 12px 12px;
+            background: $cF5F5FA;
+        }
+        &-text{
+            font-size: 38px;
+        }
+    }
+    .info-publications-long{
+        max-width: 648px;
+        &-img{
+            min-width: 648px;
+        }
+        &-radius{
+            min-height: 128px;
+        }
+    }
+    .info__header__about-light{
+        padding: 65px 60px 0;
+    }
+    .bottom__about-padding{
+        padding: 0 60px 30px;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -1619,6 +1683,73 @@ $c46466E: #46466E;
             background: $c000;
         }
     }
+    .everything::before {
+        right: 17%;
+        width: 669.957px;
+        height: 768px;
+    }
+    .header-sub{
+        padding: 235px 50px 90px 60px;
+        &-svg{
+            margin-top: 290px;
+        }
+    }
+    .middle__home{
+        padding: 0 60px;
+        row-gap: 0;
+        flex-direction: row;
+        column-gap: 60px;
+        &-spans{
+            padding-top: 14.5px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            row-gap: 30px;
+            overflow-x: hidden;
+        }
+        &-name{
+            font-size: 38px;
+        }
+        &-p{
+            min-height: 303px;
+            max-width: 470px;
+            padding-left: 60px;
+            padding-top: 9.5px;
+            border-top: none;
+            border-left: 4px rgba(255, 255, 255, 0.30) solid;
+            &-name{
+                font-size: 30px;
+            }
+        }
+    }
+    .peron__home{
+        padding: 60px 60px 0;
+        min-height: 528px;
+        &-all{
+            max-height: 528px;
+            flex-direction: row;
+        }
+        &-img{
+            border-radius: 12px 0 0 12px;
+            min-width: 400px;
+            max-height: 528px;
+        }
+        &-info{
+            border-radius: 0 12px 12px 0;
+        }
+    }
+    .info-publications-long{
+        min-width: 281px;
+        &-img{
+            min-width: 281px;
+        }
+    }
+    .info__header__about-light{
+        padding: 65px 60px 0;
+    }
+    .bottom__about-padding{
+        padding: 0 60px 30px;
+    }
 }
 
 @media screen and (min-width: 1440px){
@@ -1776,6 +1907,38 @@ $c46466E: #46466E;
             background: $c000;
         }
     }
+    .everything::before {
+        right: 25%;
+        width: 697px;
+        height: 799px;
+    }
+    .header-sub{
+        padding: 245px 50px 90px 60px;
+        &-svg{
+            margin-top: 305px;
+        }
+    }
+    .middle__home{
+        padding: 0 180px;
+        &-name{
+            font-size: 38px;
+        }
+        &-p{
+            display: grid;
+            align-content: center;
+            align-items: center;
+            min-height: 303px;
+            max-width: 640px;
+            padding-top: 0;
+        }
+    }
+    .peron__home{
+        min-height: 344px;
+        &-img{
+            min-width: 400px;
+            max-height: 344px;
+        }
+    }
 }
 @media screen and (min-width: 1920px){
     .header__about{
@@ -1918,6 +2081,33 @@ $c46466E: #46466E;
             min-width: 430px;  
             padding: 13px 139px 12px 139px;
             background: $c000;
+        }
+    }
+    .everything::before {
+        right: 27%;
+        width: 872.34px;
+        height: 1000px;
+    }
+    .header-sub{
+        padding: 360px 50px 90px 60px;
+        &-svg{
+            margin-top: 405px;
+        }
+    }
+    .middle__home{
+        padding: 0 280px;
+        &-p{
+            min-height: 303px;
+            max-width: 925px;
+            padding-top: 0;
+        }
+    }
+    .peron__home{
+        padding: 60px 160px 0;
+        min-height: 298px;
+        &-img{
+            min-width: 400px;
+            max-height: 298px;
         }
     }
 }

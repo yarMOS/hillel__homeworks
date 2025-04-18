@@ -1,4 +1,5 @@
 .everything {
+  border-radius: 0px 0px 12px 12px;
   position: relative;
   overflow: hidden;
   flex-direction: column;
@@ -305,7 +306,11 @@
 }
 .info__header__about-light {
   display: grid;
+  row-gap: 30px;
   background: #F5F5FA;
+}
+.info__header__about-light-gap {
+  row-gap: 0;
 }
 .info__header__about-text {
   margin-bottom: 30px;
@@ -1010,12 +1015,13 @@
   padding: 30px 30px 0;
 }
 .peron__home-all {
+  max-height: 1087px;
   display: flex;
   flex-direction: column;
 }
 .peron__home-img {
-  max-width: 315px;
-  min-height: 500px;
+  min-width: 315px;
+  max-height: 500px;
   border-radius: 12px 12px 0px 0px;
 }
 .peron__home-info {
@@ -1424,6 +1430,64 @@
     padding: 13px 52px 12px 52px;
     background: #000;
   }
+  .everything::before {
+    right: -10%;
+    width: 893.277px;
+    height: 1024px;
+  }
+  .header-sub {
+    padding: 270px 50px 90px 60px;
+  }
+  .header-sub-svg {
+    margin-top: 417px;
+  }
+  .middle__home {
+    padding-left: 60px;
+    row-gap: 60px;
+  }
+  .middle__home-name {
+    font-size: 38px;
+  }
+  .middle__home-p {
+    max-width: 648px;
+    padding-top: 60px;
+  }
+  .middle__home-p-name {
+    font-size: 30px;
+  }
+  .peron__home {
+    padding: 60px 60px 0;
+  }
+  .peron__home-all {
+    max-height: 936px;
+  }
+  .peron__home-img {
+    min-width: 648px;
+    max-height: 500px;
+  }
+  .peron__home-info {
+    padding: 30px;
+    border-radius: 0 0 12px 12px;
+    background: #F5F5FA;
+  }
+  .peron__home-text {
+    font-size: 38px;
+  }
+  .info-publications-long {
+    max-width: 648px;
+  }
+  .info-publications-long-img {
+    min-width: 648px;
+  }
+  .info-publications-long-radius {
+    min-height: 128px;
+  }
+  .info__header__about-light {
+    padding: 65px 60px 0;
+  }
+  .bottom__about-padding {
+    padding: 0 60px 30px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .logo {
@@ -1628,6 +1692,74 @@
     padding: 13px 52px 12px 52px;
     background: #000;
   }
+  .everything::before {
+    right: 17%;
+    width: 669.957px;
+    height: 768px;
+  }
+  .header-sub {
+    padding: 235px 50px 90px 60px;
+  }
+  .header-sub-svg {
+    margin-top: 290px;
+  }
+  .middle__home {
+    padding: 0 60px;
+    row-gap: 0;
+    flex-direction: row;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
+  }
+  .middle__home-spans {
+    padding-top: 14.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    row-gap: 30px;
+    overflow-x: hidden;
+  }
+  .middle__home-name {
+    font-size: 38px;
+  }
+  .middle__home-p {
+    min-height: 303px;
+    max-width: 470px;
+    padding-left: 60px;
+    padding-top: 9.5px;
+    border-top: none;
+    border-left: 4px rgba(255, 255, 255, 0.3) solid;
+  }
+  .middle__home-p-name {
+    font-size: 30px;
+  }
+  .peron__home {
+    padding: 60px 60px 0;
+    min-height: 528px;
+  }
+  .peron__home-all {
+    max-height: 528px;
+    flex-direction: row;
+  }
+  .peron__home-img {
+    border-radius: 12px 0 0 12px;
+    min-width: 400px;
+    max-height: 528px;
+  }
+  .peron__home-info {
+    border-radius: 0 12px 12px 0;
+  }
+  .info-publications-long {
+    min-width: 281px;
+  }
+  .info-publications-long-img {
+    min-width: 281px;
+  }
+  .info__header__about-light {
+    padding: 65px 60px 0;
+  }
+  .bottom__about-padding {
+    padding: 0 60px 30px;
+  }
 }
 @media screen and (min-width: 1440px) {
   .info__header__about {
@@ -1779,6 +1911,38 @@
     padding: 13px 104px 12px 104px;
     background: #000;
   }
+  .everything::before {
+    right: 25%;
+    width: 697px;
+    height: 799px;
+  }
+  .header-sub {
+    padding: 245px 50px 90px 60px;
+  }
+  .header-sub-svg {
+    margin-top: 305px;
+  }
+  .middle__home {
+    padding: 0 180px;
+  }
+  .middle__home-name {
+    font-size: 38px;
+  }
+  .middle__home-p {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    min-height: 303px;
+    max-width: 640px;
+    padding-top: 0;
+  }
+  .peron__home {
+    min-height: 344px;
+  }
+  .peron__home-img {
+    min-width: 400px;
+    max-height: 344px;
+  }
 }
 @media screen and (min-width: 1920px) {
   .header__about {
@@ -1918,5 +2082,32 @@
     min-width: 430px;
     padding: 13px 139px 12px 139px;
     background: #000;
+  }
+  .everything::before {
+    right: 27%;
+    width: 872.34px;
+    height: 1000px;
+  }
+  .header-sub {
+    padding: 360px 50px 90px 60px;
+  }
+  .header-sub-svg {
+    margin-top: 405px;
+  }
+  .middle__home {
+    padding: 0 280px;
+  }
+  .middle__home-p {
+    min-height: 303px;
+    max-width: 925px;
+    padding-top: 0;
+  }
+  .peron__home {
+    padding: 60px 160px 0;
+    min-height: 298px;
+  }
+  .peron__home-img {
+    min-width: 400px;
+    max-height: 298px;
   }
 }/*# sourceMappingURL=style.css.map */
