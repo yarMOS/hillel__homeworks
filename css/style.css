@@ -1,5 +1,5 @@
 .everything {
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 0 0 12px 12px;
   position: relative;
   overflow: hidden;
   flex-direction: column;
@@ -26,7 +26,6 @@
 }
 
 .burger {
-  position: fixed;
   z-index: 1;
   cursor: pointer;
   display: block;
@@ -112,7 +111,6 @@
   padding: 7px 0;
   color: var(--Active-Regular, #24A3FF);
   text-align: center;
-  font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -494,7 +492,7 @@
 .text-middle__about {
   color: var(--Basic-White, #fff);
   text-align: center;
-  text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+  text-shadow: 0 15px 30px rgba(40, 40, 86, 0.8);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -775,11 +773,11 @@
   line-height: normal;
   border-radius: 12px;
   background: #24A3FF;
-  box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.5);
+  box-shadow: 0 0 20px 0 rgba(36, 163, 255, 0.5);
 }
 .more-publication-text:hover {
   background: #24A3FF;
-  box-shadow: 0px 0px 20px 0px rgba(237, 50, 17, 0.5);
+  box-shadow: 0 0 20px 0 rgba(237, 50, 17, 0.5);
   transition: all 0.4s ease;
 }
 
@@ -828,7 +826,7 @@
 .bg1 {
   height: 10px;
   margin: 0 20px;
-  border-radius: 0px 0px 12px 12px;
+  border-radius: 0 0 12px 12px;
   background: #CACADB;
 }
 
@@ -1022,7 +1020,7 @@
 .peron__home-img {
   min-width: 315px;
   max-height: 500px;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px 12px 0 0;
 }
 .peron__home-info {
   padding: 30px;
@@ -1059,6 +1057,108 @@
 .info-everything {
   display: grid;
   row-gap: 30px;
+}
+
+.team__header {
+  display: grid;
+  row-gap: 30px;
+}
+.team__header-place {
+  padding-bottom: 30px;
+  border-bottom: 4px solid #E6E6F0;
+}
+.team__header-city {
+  color: #323264;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.team__header-contact {
+  display: grid;
+  row-gap: 15px;
+}
+.team__header-tel {
+  color: #46466E;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.team__header-email {
+  color: #24A3FF;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.team__header .team__header-fb {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.team__header .team__header-fb-text {
+  color: #24A3FF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.team__header .team__header-fb:hover .team__header-fb-text {
+  color: #F0145A;
+  transition: all 0.4s ease;
+}
+.team__header .team__header-fb:hover .fb-blue-contact {
+  fill: #F0145A;
+  transition: all 0.4s ease;
+}
+.team__header .fb-blue-contact {
+  margin-top: 0;
+}
+
+.middle__contact-text {
+  margin-bottom: 0;
+}
+
+.contact__servise {
+  margin-top: 30px;
+  border-radius: 12px;
+  background: #F5F5FA;
+}
+.contact__servise-padding {
+  display: grid;
+  padding: 30px;
+  row-gap: 30px;
+}
+.contact__servise-all {
+  display: grid;
+  row-gap: 15px;
+  color: #B3B3BA;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.contact__servise-all-padding {
+  padding: 15px 15px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: #fff;
+}
+.contact__servise-all-message {
+  padding: 15px 15px 90px;
+}
+.contact__servise-all-question {
+  color: #B3B3BA;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
