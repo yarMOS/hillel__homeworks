@@ -1589,6 +1589,14 @@
     padding: 0 60px 30px;
   }
 }
+.middle__contact-text {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 @media screen and (min-width: 1024px) {
   .logo {
     order: 1;
@@ -1860,6 +1868,24 @@
   .bottom__about-padding {
     padding: 0 60px 30px;
   }
+  .middle__team-contact {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+  }
+  .team__header {
+    min-width: 422px;
+  }
+  .contact__servise {
+    margin-top: 0;
+    display: grid;
+    align-items: self-start;
+    max-width: 422px;
+  }
+  .middle__contact-text {
+    padding: 0;
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1440px) {
   .info__header__about {
@@ -2043,6 +2069,19 @@
     min-width: 400px;
     max-height: 344px;
   }
+  .middle__team-contact {
+    padding: 60px 180px;
+  }
+  .team__header {
+    min-width: 510px;
+  }
+  .contact__servise {
+    min-width: 510px;
+  }
+  .middle__contact-text {
+    padding: 0;
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1920px) {
   .header__about {
@@ -2209,5 +2248,18 @@
   .peron__home-img {
     min-width: 400px;
     max-height: 298px;
+  }
+  .middle__team-contact {
+    padding: 60px 280px;
+  }
+  .team__header {
+    min-width: 650px;
+  }
+  .contact__servise {
+    min-width: 650px;
+  }
+  .middle__contact-text {
+    padding: 0;
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=style.css.map */
