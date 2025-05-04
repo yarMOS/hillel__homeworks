@@ -335,6 +335,90 @@ $c46466E: #46466E;
     }
 }
 
+.middle__team-profile{
+    &-wrapper {
+        display: grid;
+        row-gap: 30px;
+    }
+    &-photo{
+        margin: auto;
+        max-width: 315px;
+        min-height: 375px;
+        border-radius: 12px;
+    }
+    &-right{
+        display: grid;
+        row-gap: 30px;
+    }
+    &-info{
+        display: grid;
+        row-gap: 15px;
+    }
+    &-name{
+        font-family: Montserrat;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &-gap{
+        display: grid;
+        row-gap: 10px;
+    }
+    &-position{
+        color: $cB3B3BA;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    &-contact{
+        color: $c24A3FF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.profile__description{
+    display: grid;
+    row-gap: 30px;
+    &-first__text{
+        padding-top: 30px;
+        border-top: 4px solid $cE6E6F0;
+    }
+    &-text{
+        color: $c000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    &-fat{
+        color: $c323264;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    &-gap{
+        display: grid;
+        row-gap: 15px;
+    }
+}
+
+.middle__team-profile .svg-info__about{
+    display: none;
+    fill: #E6E6F0;
+}
+  
 .person__team{
     display: grid;
     row-gap: 30px;
@@ -1573,13 +1657,26 @@ $c46466E: #46466E;
     .bottom__about-padding{
         padding: 0 60px 30px;
     }
-}
-.middle__contact-text{
-    margin-bottom: 0;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    .middle__contact-text{
+        margin-bottom: 0;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .middle__team-profile{
+        &-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            column-gap: 30px;
+        }
+        &-photo{
+            margin: 0;
+            max-width: 300px;
+            max-height: 375px;
+        }
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -1876,6 +1973,11 @@ $c46466E: #46466E;
         padding: 0;
         margin-bottom: 0;
     }
+    .middle__team-profile{
+        &-wrapper{
+            column-gap: 60px;
+        }
+    }
 }
 
 @media screen and (min-width: 1440px){
@@ -2078,6 +2180,23 @@ $c46466E: #46466E;
         padding: 0;
         margin-bottom: 0;
     }
+    .middle__team-profile .svg-info__about{
+        display: block;
+    }
+    .middle__team-profile{
+        padding: 60px 180px;
+        &-wrapper{
+            column-gap: 60px;
+        }
+        &-photo{
+            max-width: 400px;
+            min-height: 500px;
+        }
+        &-gap{
+            display: flex;
+            column-gap: 10px;
+        }
+    }
 }
 @media screen and (min-width: 1920px){
     .header__about{
@@ -2261,5 +2380,8 @@ $c46466E: #46466E;
     .middle__contact-text{
         padding: 0;
         margin-bottom: 0;
+    }
+    .middle__team-profile{
+        padding: 60px 280px;
     }
 }
