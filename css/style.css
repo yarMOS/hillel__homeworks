@@ -2195,6 +2195,7 @@
   }
   .middle__team-profile-gap {
     display: flex;
+    align-items: baseline;
     -moz-column-gap: 10px;
          column-gap: 10px;
   }

@@ -2194,6 +2194,7 @@ $c46466E: #46466E;
         }
         &-gap{
             display: flex;
+            align-items: baseline;
             column-gap: 10px;
         }
     }
