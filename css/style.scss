@@ -422,6 +422,9 @@ $c46466E: #46466E;
 .person__team{
     display: grid;
     row-gap: 30px;
+    &-every {
+        margin: auto;
+    }
     &-every-img{
         width: 315px;
         height: 300px;
@@ -1385,6 +1388,9 @@ $c46466E: #46466E;
         display: flex;
         flex-wrap: wrap;
         gap: 60px;
+        &-every {
+            margin: 0;
+        }
         &-every-img{
             width: 294px;
             height: 400px;

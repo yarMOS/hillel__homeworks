@@ -428,6 +428,9 @@
   display: grid;
   row-gap: 30px;
 }
+.person__team-every {
+  margin: auto;
+}
 .person__team-every-img {
   width: 315px;
   height: 300px;
@@ -1399,6 +1402,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
+  }
+  .person__team-every {
+    margin: 0;
   }
   .person__team-every-img {
     width: 294px;
