@@ -7,6 +7,7 @@ $cF0145A: #F0145A;
 $cB3B3BA: #B3B3BA;
 $cE6E6F0: #E6E6F0;
 $c46466E: #46466E;
+$cEDEDF7: #EDEDF7;
 
 .everything{
     border-radius: 0 0 12px 12px;
@@ -1232,6 +1233,131 @@ $c46466E: #46466E;
     }
 }
 
+.gdpr__middle{
+    display: grid;
+    row-gap: 30px;
+    &-logo{
+        margin: auto;
+    }
+    &-logo img{
+        min-height: 300px;
+        max-width: 315px;
+        border-radius: 12px;
+    }
+    &-gap{
+        display: grid;
+        row-gap: 15px;
+    }
+    &-title{
+        color: $c323264;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    &-date{
+        color: $cB3B3BA;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+        border-bottom: 4px solid $cE6E6F0;
+    }
+    &-text{
+        color: $c000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        &-red{
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    &-list{
+        &-title{
+            color: $c46466E;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &-number{
+            display: grid;
+            row-gap: 15px;
+            padding-left: 30px;
+            color: $cF0145A;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 26px;
+        }
+        &-section{
+            list-style-type: decimal;
+        }
+        &-text{
+            color: $c000;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+        }
+    }
+    &-pers{
+        &-img{
+            margin: auto;
+        }
+        &-img img{
+            min-width: 315px;
+            max-height: 195px;
+        }
+        &-text{
+            color: $cB3B3BA;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+        }
+    }
+    &-bottom{
+        &-title{
+            color: $c323264;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+    &-linebottom{
+        padding-bottom: 30px;
+        border-bottom: 4px solid $cE6E6F0;
+    }
+    &-links{
+        display: flex;
+        column-gap: 10px;
+        &-a{
+            display: flex;
+            padding: 9px;
+            border-radius: 12px;
+            background: $cF5F5FA;        
+        }
+        &-a:hover{
+            background: $cEDEDF7; 
+            transition: all 0.4s ease;
+        }
+    }
+}
+
 @media screen and (min-width: 768px){
     .burger-checkbox,
     .burger {
@@ -1683,6 +1809,25 @@ $c46466E: #46466E;
             max-height: 375px;
         }
     }
+    .gdpr__middle{
+        &-logo img{
+            min-height: 500px;
+            min-width: 648px;
+        }
+        &-pers-img img{
+            min-width: 640px;
+            min-height: 398px;
+        }
+        &-title{
+            font-size: 30px;
+        }
+        &-text-red{
+            font-size: 38px;
+        }
+        &-list-title{
+            font-size: 22px;
+        }
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -1984,6 +2129,16 @@ $c46466E: #46466E;
             column-gap: 60px;
         }
     }
+    .gdpr__middle{
+        &-logo img{
+            min-width: 904px;
+            min-height: 500px;
+        }
+        &-pers-img img{
+            min-width: 640px;
+            min-height: 398px;
+        }
+    }
 }
 
 @media screen and (min-width: 1440px){
@@ -2202,6 +2357,16 @@ $c46466E: #46466E;
             display: flex;
             align-items: baseline;
             column-gap: 10px;
+        }
+    }
+    .gdpr__middle{
+        &-logo img{
+            min-width: 1360px;
+            min-height: 500px;
+        }
+        &-pers-img img{
+            min-width: 640px;
+            min-height: 398px;
         }
     }
 }
