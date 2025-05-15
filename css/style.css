@@ -921,6 +921,9 @@
   border-radius: 0 0 12px 12px;
   background: #E7E7F2;
 }
+.bg2-margin {
+  margin-bottom: 60px;
+}
 
 .sub-bottom-service {
   display: flex;
